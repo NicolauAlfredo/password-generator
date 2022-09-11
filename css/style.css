@@ -6,7 +6,9 @@
 }
 
 body {
-    background-color: #18181B;
+    color: #000;
+    text-align: center;
+    background-color: #292936;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,9 +17,14 @@ body {
     flex-direction: column;
 }
 
-.logo {
-    max-width: 600px;
-    margin-bottom: 24px;
+.container {
+    color: #000;
+    width: 440px;
+    padding: 30px 30px 38px;
+    background: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .container-input {
@@ -26,7 +33,7 @@ body {
 }
 
 .container-input span {
-    color: white;
+    color: black;
     font-size: 22px;
 }
 
@@ -34,7 +41,7 @@ body {
     -webkit-appearance: none;
     width: 100%;
     border-radius: 5px;
-    background-color: #DFDFDFDF;
+    background-color: #192e47;
     height: 18px;
     outline: none;
     margin-top: 8px;
@@ -42,7 +49,7 @@ body {
 
 .button-cta {
     height: 40px;
-    background-color: #3EB72B;
+    background-color: #192e47;
     border: 0;
     border-radius: 4px;
     cursor: pointer;
@@ -71,18 +78,19 @@ body {
 
 .password {
     height: 60px;
-    background-color: rgba(0, 0, 0, 0.40);
+    background-color: #292936;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    border: 1px solid #313131;
+    border: 1px solid #292936;
     transition: transform 0.5s;
 }
 
 .password:hover {
     transform: scale(1.05);
+    background-color: #192e47;
 }
 
 .tooltip {
@@ -90,7 +98,7 @@ body {
     position: relative;
     top: 20px;
     padding: 6px 8px;
-    background: rgba(15, 15, 15);
+    background: #192e47;
     text-align: center;
     font-size: 16px;
     border-radius: 6px;
@@ -107,4 +115,10 @@ body {
     visibility: visible;
     bottom: 50px;
     opacity: 1;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
